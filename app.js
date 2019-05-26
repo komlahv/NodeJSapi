@@ -12,7 +12,7 @@ var app = Express();
 app.use(BodyParser.json());
 app.use(BodyParser.urlencoded({ extended: true }));
 
-//Open Homepage...doesn't work yet. fix if you can :)
+//Open Homepage...doesn't do anything yet. Make a request to the Api if you can :) (Try using JQuery)
 app.use("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
