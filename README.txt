@@ -6,6 +6,7 @@ npm install --save express body-parser mongoose
 
 set up your mongoDB connection string
 
+NB: change response.send to response.jsonp inside the endpoints in app.js to return jsonp to requests(for cross-domain)
 
 guide
 
