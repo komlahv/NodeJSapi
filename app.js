@@ -47,6 +47,7 @@ app.post("/person", (request, response) => {
       return response.status(500).send(error);
     }
     response.send(result.result);
+    //change response.send to response.jsonp to return jsonp to requests(for cross-domain)
   });
 });
 
