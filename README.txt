@@ -1,8 +1,4 @@
-npm init -y
-
 npm install
-
-npm install --save express body-parser mongoose
 
 set up your mongoDB connection string
 
